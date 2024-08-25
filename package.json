@@ -1,7 +1,7 @@
 {
   "name": "@vecal/mitt",
   "author": "cmchu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "A library for the event publish-subscribe pattern",
   "keywords": [
@@ -32,5 +32,9 @@
   "devDependencies": {
     "typescript": "^5.4.5",
     "vite": "^5.2.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cm-vocal/mitt.git"
   }
 }
