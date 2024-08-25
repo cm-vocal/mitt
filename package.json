@@ -1,0 +1,36 @@
+{
+  "name": "@vecal/mitt",
+  "author": "cmchu",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A library for the event publish-subscribe pattern",
+  "keywords": [
+		"vecal",
+		"mitt",
+    "eventBus"
+	],
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  }
+}
